@@ -1,5 +1,10 @@
 import os
 import sys
+
+
+import warnings
+warnings.simplefilter("ignore", category=FutureWarning)
+
 import pandas as pd
 
 # from patsy import dmatrix  # one-hot-encoding
